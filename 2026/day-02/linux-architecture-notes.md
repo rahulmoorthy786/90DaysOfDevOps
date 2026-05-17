@@ -26,8 +26,8 @@ It is responsible for:
 - **Zombie (Z)**: The process has finished execution, but its entry still exists in the process table because the parent hasn’t read its exit status yet.
 
 # 5 Commands for daily use:
-- **df/free/du**: df Shows disk space usage of mounted filesystems (how much disk is used and available). free (how much disk is used and available). du Shows disk usage of files and directories, useful for finding which folders are consuming space.
-- **chmod/chown**: Used to change file permissions (chmod) and file ownership (chown)
+- **df/free/du**: df Shows disk space usage of mounted filesystems (how much disk is used and available). free (how much disk is used and available). du shows disk usage of files and directories, useful for finding which folders are consuming space.
+- **chmod/chown**: (chmod) is used to change file permissions, and (chown) is used to change file ownership.
 - **cp/mv**: (cp) is used to copy files, and (mv) is used to move/rename files and directories.
 - **systemctl**: Used to manage system services like start, stop, restart, and check status.
 - **ps/top**: Used to view running processes (ps for snapshot, top for real-time view).
