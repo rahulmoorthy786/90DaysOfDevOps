@@ -7,10 +7,16 @@
 - **File System**: The way Linux organizes and stores data on disk. It manages files and directories, controls how data is saved, retrieved, and structured in a hierarchy starting from the root (/). 
 
 # Processes in Linux:
-Processes in Linux are created and managed by the kernel. When a process is created, the system typically uses fork() to create a copy of an existing process, and then exec() to replace it with a new program. Every process gets a unique Process ID (PID).
-- Tracking state (running, sleeping, stopped)
-- Handling priorities
-- Managing memory and resources
+Processes in Linux are managed by the kernel. Whenever a user runs a command or starts an application, a new process is created, and each process gets a unique Process ID (PID).
+
+The kernel manages processes by:
+
+- Tracking process states (running, sleeping, stopped)
+- Handling CPU priorities and scheduling
+- Managing memory and system resources
+- Starting and stopping processes when needed
+
+For example, running a command like ping google.com creates a new process in the system.
 
 ## What is systemd? Why does it matter?
 - systemd is the init system in most modern Linux distributions. It is the first process (PID 1) that starts when the system boots.
