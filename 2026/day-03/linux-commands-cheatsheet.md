@@ -34,6 +34,7 @@
 - ss -tulpn:	Shows listening ports and active connections.
 - traceroute host:	Shows the path packets take to reach a host.
 - nslookup domain:	Finds the IP address of a domain.
+- dig domain – Shows detailed DNS information like IP address, name servers, and DNS response details for a domain.
 - netstat -a:	Displays network connections and ports.
 - host domain: Shows DNS information for a domain.
 - whois domain:	Displays domain registration details.
