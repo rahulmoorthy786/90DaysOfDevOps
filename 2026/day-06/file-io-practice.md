@@ -20,7 +20,7 @@ tee -a appends the output to a file while also printing the same output on the s
 
 Prints the first two lines. 
 
-tail -n 2 notes.txt
+`tail -n 2 notes.txt`
 
 Prints the last two lines. 
 
