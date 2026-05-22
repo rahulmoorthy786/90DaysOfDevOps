@@ -192,6 +192,12 @@ du -sh /var/log/* 2>/dev/null | sort -h | tail -5
 ### Observation
 This command displays the top 5 largest log files or directories inside `/var/log`.
 
+- /var/log/auth.log
+- /var/log/cloud-init.log
+- /var/log/syslog
+- /var/log/sysstat
+- /var/log/journal
+
 ---
 
 ## View Hostname Configuration
