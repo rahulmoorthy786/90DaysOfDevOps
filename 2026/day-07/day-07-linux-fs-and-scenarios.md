@@ -462,19 +462,8 @@ To test whether the script executes correctly.
 ---
 
 ### What I Learned
-Linux files require execute (`x`) permission before they can run as scripts or programs.
+Linux files require executable permissions to run scripts.
 
 ---
-
-# Summary
-
-Today I learned:
-
-- Linux file system hierarchy
-- Important directories for logs, configs, and binaries
-- How to troubleshoot services
-- How to identify high CPU usage
-- How to check service logs using journalctl
-- How Linux file permissions work
 
 These skills are essential for Linux Administration, DevOps, and real-world production troubleshooting.
