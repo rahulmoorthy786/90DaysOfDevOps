@@ -107,16 +107,16 @@ This happens because the file does not have write (w) permission enabled.
 ## What I Learned
 
 1. Linux file permissions use the format rwxrwxrwx, divided into owner, group, and others, where:
-  - r = 4
-  - w = 2
-  - x = 1
+    - r = 4
+    - w = 2
+    - x = 1
     
 2. The chmod command is used to modify permissions:
-  - chmod +x makes a file executable
-  - chmod -w removes write permissions
-  - Numeric permissions like 640 and 755 control access levels.
+    - chmod +x makes a file executable
+    - chmod -w removes write permissions
+    - Numeric permissions like 640 and 755 control access levels.
 
 3. Permission-related errors help identify access restrictions:
-  - Writing to a read-only file gives Permission denied
-  - Executing a file without execute permission also gives Permission denied
+    - Writing to a read-only file gives Permission denied
+    - Executing a file without execute permission also gives Permission denied
     
