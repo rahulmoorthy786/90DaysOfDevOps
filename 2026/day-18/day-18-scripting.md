@@ -8,7 +8,7 @@
    - A function `add` that takes two numbers and prints their sum
    - Call both functions from the script
 
-[View functions.sh](day-18/scripts/functions.sh)
+[View functions.sh](scripts/functions.sh)
 
 <img width="505" height="109" alt="image" src="https://github.com/user-attachments/assets/23157271-f1e5-4de2-9a04-e841aa8d4979" />
 
@@ -20,7 +20,7 @@
    - A function `check_memory` that checks free memory using `free -h`
    - A main section that calls both and prints the results
 
-[View disk_check.sh](day-18/scripts/disk_check.sh)
+[View disk_check.sh](scripts/disk_check.sh)
 
 <img width="510" height="116" alt="image" src="https://github.com/user-attachments/assets/a7afa7cb-1876-4f5f-87ff-1aa9114b0d9b" />
 
@@ -37,7 +37,7 @@
 - `set -u` → Stops the script if it references an undefined variable.
 - `set -o pipefail` → Causes a pipeline to fail if any command inside it fails, not just the last one.
 
-[View strict_demo.sh](day-18/scripts/strict_demo.sh)
+[View strict_demo.sh](scripts/strict_demo.sh)
 
 <img width="545" height="353" alt="image" src="https://github.com/user-attachments/assets/25ef6710-e7e6-4f10-b129-1f2f9d535fda" />
 
@@ -49,7 +49,7 @@
    - Show that `local` variables don't leak outside the function
    - Compare with a function that uses regular variables
      
-[View local_demo.sh](day-18/scripts/local_demo.sh)
+[View local_demo.sh](scripts/local_demo.sh)
 
 <img width="501" height="110" alt="image" src="https://github.com/user-attachments/assets/14ddb9d8-61b6-4d91-8fd9-cdb4e93c1194" />
 
