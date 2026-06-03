@@ -65,7 +65,7 @@ Create `system_info.sh` that uses functions for everything:
 6. A `main` function that calls all of the above with section headers
 7. Use `set -euo pipefail` at the top
 
-[View system_info.sh](day-18/scripts/system_info.sh)
+[View system_info.sh](scripts/system_info.sh)
 
 <img width="568" height="577" alt="image" src="https://github.com/user-attachments/assets/37813edb-c821-4468-947e-943caa336795" />
 
